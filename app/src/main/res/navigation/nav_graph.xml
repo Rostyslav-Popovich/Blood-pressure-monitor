@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/TrackFragment">
+
+    <fragment
+        android:id="@+id/TrackFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.track.TrackFragment"
+        android:label="@string/label_track"
+        tools:layout="@layout/fragment_track">
+
+        <action
+            android:id="@+id/action_trackFragment_to_trackEditFragment"
+            app:destination="@id/TrackEditFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/HistoryFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.history.HistoryFragment"
+        android:label="@string/label_history"
+        tools:layout="@layout/fragment_history">
+
+        <action
+            android:id="@+id/action_historyFragment_to_trackEditFragment"
+            app:destination="@id/TrackEditFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/InfoFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.info.InfoFragment"
+        android:label="@string/label_info"
+        tools:layout="@layout/fragment_info">
+
+        <action
+            android:id="@+id/action_infoFragment_to_articleFragment"
+            app:destination="@id/ArticleFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/SettingsFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.settings.SettingsFragment"
+        android:label="@string/label_settings"
+        tools:layout="@layout/fragment_settings">
+    </fragment>
+
+    <fragment
+        android:id="@+id/ArticleFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.info.ArticleFragment"
+        tools:layout="@layout/fragment_article">
+    </fragment>
+
+    <fragment
+        android:id="@+id/TrackEditFragment"
+        android:name="com.roctik.bloodpressuremonitor.ui.track.TrackEditFragment"
+        tools:layout="@layout/fragment_track_edit">
+    </fragment>
+</navigation>

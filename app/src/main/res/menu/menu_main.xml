@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ui.main.MainActivity">
+    <item
+        android:id="@+id/TrackFragment"
+        android:title="@string/label_track"
+        android:icon="@drawable/ic_track" />
+
+    <item
+        android:id="@+id/HistoryFragment"
+        android:title="@string/label_history"
+        android:icon="@drawable/ic_history" />
+
+    <item
+        android:id="@+id/InfoFragment"
+        android:title="@string/label_info"
+        android:icon="@drawable/ic_info" />
+
+    <item
+        android:id="@+id/SettingsFragment"
+        android:title="@string/label_settings"
+        android:icon="@drawable/ic_settings" />
+</menu>

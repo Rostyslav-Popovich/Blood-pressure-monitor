@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Blood pressure monitor</string>
+    <string name="label_splash_title">Welcome to Blood Pressure application</string>
+    <string name="label_track">Track</string>
+    <string name="label_history">History</string>
+    <string name="label_info">Info</string>
+    <string name="label_settings">Settings</string>
+    <string name="label_no_measurements">No measurements</string>
+    <string name="label_description_no_data">Do not forget to enter your health data every day</string>
+    <string name="label_add_measurement">Add measurement</string>
+    <string name="label_add_title">Add title</string>
+    <string name="add_description">Add description</string>
+    <string name="label_done">Done</string>
+    <string name="static_text_hypertension_grade_2">Hypertension grade 2</string>
+    <string name="static_text_description">Systolic 140-180 or Diastolic 90-120</string>
+    <string name="label_systolic">Systolic</string>
+    <string name="label_unit_mm_hg">mm Hg</string>
+    <string name="label_diastolic">Diastolic</string>
+    <string name="label_unit_bpm">BPM</string>
+    <string name="label_pulse">Pulse</string>
+    <string name="label_measurements">Measurements</string>
+</resources>
